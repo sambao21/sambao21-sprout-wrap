@@ -1,0 +1,22 @@
+sprout_url = 'git://github.com/sambao21/sprout.git'
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'sambao21_workstation',
+  :path => 'sambao21_workstation'
+
+cookbook 'pivotal_workstation',
+  :git => sprout_url,
+  :path => 'pivotal_workstation'
+
+cookbook 'sprout-osx-apps',
+  :git => sprout_url,
+  :path => 'sprout-osx-apps'
+
+cookbook 'sprout-osx-settings',
+  :git => sprout_url,
+  :path => 'sprout-osx-settings'
+
+cookbook 'osx',
+  :git => sprout_url,
+  :path => 'osx'

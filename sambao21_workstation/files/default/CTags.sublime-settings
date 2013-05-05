@@ -1,0 +1,4 @@
+{
+  "extra_tag_files" : [".gemtags", "tags", ".rubytags"],
+  "command"   :  "ctags_for_ruby"
+}
