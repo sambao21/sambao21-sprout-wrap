@@ -33,7 +33,7 @@ ZSH_THEME="sambao21"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -45,6 +45,7 @@ alias e="subl -n ."
 alias rg="rvm gemset"
 alias sha256="shasum -a 256"
 alias pryrails="pry -r ./config/environment"
+alias goplay="cd ~/Dropbox/playpen"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

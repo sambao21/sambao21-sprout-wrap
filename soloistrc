@@ -8,6 +8,7 @@ recipes:
 - pivotal_workstation::gem_setup
 - pivotal_workstation::oh_my_zsh
 - sambao21_workstation::sambao21_zsh_theme
+- sambao21_workstation::zsh_syntax_highlighting
 - sambao21_workstation::zshrc
 - sprout-osx-apps::node_js
 - sambao21_workstation::global_npm_packages
