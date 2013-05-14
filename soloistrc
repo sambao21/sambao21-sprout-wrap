@@ -29,3 +29,6 @@ recipes:
 - sambao21_workstation::dock_preferences
 - sambao21_workstation::active_corners
 - sambao21_workstation::sonos
+node_attributes:
+  versions:
+    - rvm: stable
