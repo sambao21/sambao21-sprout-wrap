@@ -1,5 +1,3 @@
-# coding: UTF-8
-
 include_recipe 'pivotal_workstation::sublime_text'
 
 sublime_package_path = ["#{WS_HOME}/Library/Application Support/Sublime Text 2", "Packages"]
@@ -16,8 +14,8 @@ cookbook_file File.expand_path("Auto Encoding for Ruby.sublime-settings", File.j
   mode "0600"
 end
 
-cookbook_file File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
-  source "Ruby.sublime-build"
+template File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
+  source "Ruby.sublime-build.erb"
   owner WS_USER
   mode "0600"
 end
