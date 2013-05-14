@@ -1,4 +1,5 @@
-sprout_url = 'git://github.com/sambao21/sprout.git'
+sprout_url = 'git://github.com/pivotal-sprout/sprout.git'
+#sprout_url = 'git://github.com/sambao21/sprout.git'
 
 site 'http://community.opscode.com/api/v1'
 
