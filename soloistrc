@@ -31,4 +31,4 @@ recipes:
 - sambao21_workstation::sonos
 node_attributes:
   versions:
-    - rvm: stable
+    - rvm: 'stable'
