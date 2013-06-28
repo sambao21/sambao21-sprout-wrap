@@ -10,18 +10,18 @@ end
 
 cookbook_file File.expand_path("Auto Encoding for Ruby.sublime-settings", File.join(sublime_user_path)) do
   source "sublime_text-Auto Encoding for Ruby.sublime-settings"
-  owner WS_USER
+  owner node['current_user']
   mode "0600"
 end
 
 template File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
   source "Ruby.sublime-build.erb"
-  owner WS_USER
+  owner node['current_user']
   mode "0600"
 end
 
 cookbook_file File.expand_path("CTags.sublime-settings", File.join(sublime_user_path)) do
   source "CTags.sublime-settings"
-  owner WS_USER
+  owner node['current_user']
   mode "0600"
 end

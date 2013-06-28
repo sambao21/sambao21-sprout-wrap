@@ -1,7 +1,5 @@
-# coding: UTF-8
-
 cookbook_file "#{WS_HOME}/.vimrc" do
   source "dotvimrc"
-  owner WS_USER
+  owner node['current_user']
   mode "0600"
 end

@@ -1,5 +1,5 @@
 template "#{WS_HOME}/.gitconfig" do
   source "dotgitconfig.erb"
-  owner WS_USER
+  owner node['current_user']
   mode "0600"
 end

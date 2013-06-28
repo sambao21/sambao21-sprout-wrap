@@ -1,18 +1,18 @@
 unless File.exists?("/Applications/Spotify.app")
   remote_file "#{Chef::Config[:file_cache_path]}/SpotifyApp.zip" do
     source "http://download.spotify.com/SpotifyInstaller.zip"
-    owner WS_USER
+    owner node['current_user']
     #checksum "4e654c6571d89d1d940fb19f1a46f1a01fbea6ed279649d2bd78dfef29c6621d"
   end
 
   execute "unzip SpotifyApp.zip" do
     command "unzip -o #{Chef::Config[:file_cache_path]}/SpotifyApp.zip -d #{Chef::Config[:file_cache_path]}/"
-    user WS_USER
+    user node['current_user']
   end
 
   execute "Install Spotify.app to /Applications" do
     command "open #{Chef::Config[:file_cache_path]}/Install\\ Spotify.app"
-    user WS_USER
+    user node['current_user']
     group "admin"
   end
 
