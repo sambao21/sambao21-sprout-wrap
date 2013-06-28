@@ -1,4 +1,4 @@
-cookbook_file "#{WS_HOME}/.zshrc" do
+cookbook_file "#{node['sprout']['home']}/.zshrc" do
   source "dotzshrc"
   user node['current_user']
   mode "0600"

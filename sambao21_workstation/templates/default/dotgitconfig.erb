@@ -10,5 +10,5 @@
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
 [core]
-  excludesfile = <%=WS_HOME%>/.gitignore_global
+  excludesfile = <%=node['sprout']['home']%>/.gitignore_global
   editor = subl -n -w
