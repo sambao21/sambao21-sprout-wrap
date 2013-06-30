@@ -6,6 +6,7 @@ recipes:
 - sambao21_workstation::gitconfig
 - pivotal_workstation::rvm
 - pivotal_workstation::gem_setup
+- sambao21_workstation::rvm_global_gems
 - pivotal_workstation::oh_my_zsh
 - sambao21_workstation::sambao21_zsh_theme
 - sambao21_workstation::zsh_syntax_highlighting
