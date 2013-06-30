@@ -34,3 +34,5 @@ recipes:
 node_attributes:
   versions:
     rvm: stable
+  rvm:
+    default_ruby: "ruby-2.0.0-p195"
