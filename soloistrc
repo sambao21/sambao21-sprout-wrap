@@ -13,6 +13,7 @@ recipes:
 - sprout-osx-apps::node_js
 - sambao21_workstation::global_npm_packages
 - sprout-osx-apps::ack
+- sprout-osx-apps::heroku_toolbelt
 - sambao21_workstation::ctags
 - sambao21_workstation::vimrc
 - sambao21_workstation::sublime_text
