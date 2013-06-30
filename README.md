@@ -19,12 +19,12 @@ A custom sprout-wrap based off of [pivotal-sprout](https://github.com/pivotal-sp
 
 ### 4. Install soloist & and other required gems
 
-    gem install bundler
+    sudo gem install bundler
     bundle
 
 ### 5. Run soloist
 
-    soloist
+    bundle exec soloist
 
 ## License
 
