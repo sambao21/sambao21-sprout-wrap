@@ -48,3 +48,8 @@ nosetests.xml
 
 #Rubymine Project Files
 .idea
+
+# Ctags
+#######
+.tags
+tags
