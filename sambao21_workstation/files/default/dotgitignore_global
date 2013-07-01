@@ -52,5 +52,6 @@ nosetests.xml
 # Ctags
 #######
 .tags
+.tags_sorted_by_file
 .gemtags
 tags
