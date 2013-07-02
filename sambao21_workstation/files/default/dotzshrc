@@ -46,6 +46,7 @@ alias rg="rvm gemset"
 alias sha256="shasum -a 256"
 alias pryrails="pry -r ./config/environment"
 alias goplay="cd ~/Dropbox/playpen"
+alias mdr="make_dot_ruby"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
