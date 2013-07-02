@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "What ruby version? (2.0.0) " input
+input=${input:-2.0.0}
+echo $input >> .ruby-version
+read -p "What gemset (default)? " input
+input=${input:-default}
+echo $input >> .ruby-gemset
