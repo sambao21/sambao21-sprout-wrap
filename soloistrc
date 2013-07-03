@@ -37,6 +37,7 @@ recipes:
 - sprout-osx-settings::set_finder_show_all_hd_on_desktop
 - sambao21_workstation::trackpad_preferences
 - sambao21_workstation::sonos
+#- pivotal_workstation::diffmerge
 node_attributes:
   versions:
     rvm: stable
