@@ -33,7 +33,7 @@ recipes:
 - sambao21_workstation::active_corners
 - sambao21_workstation::finder_preferences
 - sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-settings:function_keys
+- sprout-osx-settings::function_keys
 - pivotal_workstation::keyboard_preferences
 - sprout-osx-settings::set_finder_show_all_hd_on_desktop
 - sambao21_workstation::trackpad_preferences
