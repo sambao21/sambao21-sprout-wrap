@@ -39,6 +39,7 @@ recipes:
 - sambao21_workstation::trackpad_preferences
 - sambao21_workstation::sonos
 #- pivotal_workstation::diffmerge
+- pivotal_workstation::standby-delay
 node_attributes:
   versions:
     rvm: stable
