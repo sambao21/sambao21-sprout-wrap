@@ -31,6 +31,7 @@ recipes:
 - sambao21_workstation::dock_preferences
 - sambao21_workstation::active_corners
 - sambao21_workstation::finder_preferences
+- sprout-osx-settings::defaults_fast_key_repeat_rate
 - sambao21_workstation::sonos
 node_attributes:
   versions:
