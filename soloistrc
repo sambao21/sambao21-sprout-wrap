@@ -15,7 +15,7 @@ recipes:
 - sambao21_workstation::global_npm_packages
 - sprout-osx-apps::ack
 - sprout-osx-apps::heroku_toolbelt
-- sprout_osx-apps::ctags_exuberant
+- sprout-osx-apps::ctags_exuberant
 - sambao21_workstation::ctags_for_ruby
 - sambao21_workstation::vimrc
 - sambao21_workstation::sublime_text
