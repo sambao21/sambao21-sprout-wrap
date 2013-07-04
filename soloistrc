@@ -41,6 +41,7 @@ recipes:
 #- pivotal_workstation::diffmerge
 - pivotal_workstation::standby-delay
 - sambao21_workstation::postgresapp
+- sprout-osx-apps::pg_admin
 node_attributes:
   versions:
     rvm: stable
