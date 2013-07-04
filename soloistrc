@@ -40,6 +40,7 @@ recipes:
 - sambao21_workstation::sonos
 #- pivotal_workstation::diffmerge
 - pivotal_workstation::standby-delay
+- sambao21_workstation::postgresapp
 node_attributes:
   versions:
     rvm: stable
