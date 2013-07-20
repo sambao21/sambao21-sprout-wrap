@@ -11,5 +11,6 @@ node.override["sublime_text_packages"] = [
   {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"},
   {"name" => "CTags", "source" => "https://github.com/SublimeText/CTags"},
   {"name" => "Syntax highlighting for Sass", "source" => "https://github.com/P233/Syntax-highlighting-for-Sass"},
-  {"name" => "HTML2HAML", "source" => "https://github.com/pavelpachkovskij/sublime-html-to-haml"}
+  {"name" => "HTML2HAML", "source" => "https://github.com/pavelpachkovskij/sublime-html-to-haml"},
+  {"name" => "Sublime Alignment", "source" => "https://github.com/wbond/sublime_alignment"}
 ]
