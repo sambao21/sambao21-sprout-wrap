@@ -1,6 +1,7 @@
 recipes:
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::homebrew
+- sambao21_workstation::homebrew_cask
 - pivotal_workstation::git
 - sambao21_workstation::gitignore_global
 - sambao21_workstation::gitconfig
