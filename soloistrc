@@ -1,6 +1,6 @@
 recipes:
 - pivotal_workstation::create_var_chef_cache
-- pivotal_workstation::homebrew
+- sprout-osx-base::homebrew
 - sambao21_workstation::homebrew_cask
 - pivotal_workstation::git
 - sambao21_workstation::gitignore_global
