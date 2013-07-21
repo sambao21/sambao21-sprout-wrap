@@ -1,7 +1,7 @@
-define :brew_cask do
+define :brew_cask, :action => :install do
   include_recipe "sprout-osx-base::homebrew"
   include_recipe "sambao21_workstation::homebrew_cask"
-  package = params[:package]
+  package = params[:name]
 
   case params[:action]
   when :install
@@ -13,12 +13,4 @@ define :brew_cask do
         command "brew cask install #{package}"
       end
     end
-  when :uninstall
-    execute "brew cask uninstall #{package}" do
-      only_if params[:only_if] || "brew cask list | grep #{package}"
-      not_if params[:not_if] if params[:not_if]
-      user params[:user] || node['current_user']
-      command "brew cask uninstall #{package}"
-    end
-  end
 end
