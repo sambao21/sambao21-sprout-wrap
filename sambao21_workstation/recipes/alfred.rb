@@ -1,1 +1,1 @@
-brew "cask alfred"
+brew_cask "alfred"

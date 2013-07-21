@@ -43,7 +43,7 @@ recipes:
 - pivotal_workstation::standby-delay
 - sambao21_workstation::postgresapp
 - sprout-osx-apps::pg_admin
-#- sambao21_workstation::alfred
+- sambao21_workstation::alfred
 node_attributes:
   versions:
     rvm: stable
