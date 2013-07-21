@@ -5,13 +5,6 @@ define :brew_cask, :action => :install do
 
   case params[:action]
   when :install
-    unless brew_cask_installed?(package)
-      execute "brew cask install #{package}" do
-        only_if params[:only_if] if params[:only_if]
-        not_if params[:not_if] if params[:not_if]
-        user params[:user] || node['current_user']
-        command "brew cask install #{package}"
-      end
-    end
+    sambao21_workstation_brew_cask package
   end
 end
