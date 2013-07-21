@@ -13,4 +13,5 @@ define :brew_cask, :action => :install do
         command "brew cask install #{package}"
       end
     end
+  end
 end
