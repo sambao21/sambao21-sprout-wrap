@@ -5,6 +5,6 @@ define :brew_cask, :action => :install do
 
   case params[:action]
   when :install
-    sambao21_workstation_brew_cask package
+    sambao21_workstation_homebrew_cask package
   end
 end
