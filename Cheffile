@@ -6,6 +6,9 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'sambao21_workstation',
   :path => 'sambao21_workstation'
 
+cookbook 'homebrew',
+  :path => 'homebrew'
+
 cookbook 'sprout-osx-base',
   :git => sprout_url,
   :path => 'sprout-osx-base'

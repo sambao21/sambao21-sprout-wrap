@@ -1,1 +1,2 @@
-brew_cask "alfred"
+include_recipe "homebrew::cask"
+homebrew_cask "alfred"
