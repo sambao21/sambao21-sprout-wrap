@@ -25,7 +25,8 @@ recipes:
 - sambao21_workstation::spotify
 - sambao21_workstation::google_voice_and_video
 - sprout-osx-apps::firefox
-- sprout-osx-apps::chrome
+#- sprout-osx-apps::chrome
+- sambao21_workstation::google-chrome
 - pivotal_workstation::bettertouchtool
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::evernote
