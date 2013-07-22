@@ -29,7 +29,8 @@ recipes:
 - pivotal_workstation::bettertouchtool
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::evernote
-- sprout-osx-apps::sourcetree
+#- sprout-osx-apps::sourcetree
+- sambao21_workstation::sourcetree
 - sambao21_workstation::dock_preferences
 - sambao21_workstation::active_corners
 - sambao21_workstation::finder_preferences
