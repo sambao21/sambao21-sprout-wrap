@@ -44,6 +44,7 @@ recipes:
 - sambao21_workstation::postgresapp
 - sprout-osx-apps::pg_admin
 - sambao21_workstation::alfred
+- sambao21_workstation::virtualbox
 - sambao21_workstation::vagrant
 node_attributes:
   versions:
