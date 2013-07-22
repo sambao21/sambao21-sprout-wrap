@@ -1,2 +1,2 @@
 include_recipe "homebrew::cask"
-homebrew_cask "spotify"
+homebrew_cask "bettertouchtool"
