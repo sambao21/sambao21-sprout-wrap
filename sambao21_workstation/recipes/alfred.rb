@@ -1,4 +1,3 @@
-include_recipe "homebrew::cask"
 homebrew_cask "alfred"
 
 execute 'brew cask alfred link' do
