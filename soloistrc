@@ -38,7 +38,7 @@ recipes:
 #- sprout-osx-apps::firefox
 - sambao21_workstation::firefox
 #- sprout-osx-apps::chrome
-- sambao21_workstation::google-chrome
+- sambao21_workstation::google_chrome
 #- pivotal_workstation::bettertouchtool
 - sambao21_workstation::bettertouchtool
 #- sprout-osx-apps::dropbox
@@ -50,6 +50,8 @@ recipes:
 - sambao21_workstation::alfred
 - sambao21_workstation::virtualbox
 - sambao21_workstation::vagrant
+- sambao21_workstation::u_torrent
+- sambao21_workstation::simple_comic
 node_attributes:
   versions:
     rvm: stable
