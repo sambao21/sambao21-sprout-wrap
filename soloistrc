@@ -1,7 +1,6 @@
 recipes:
 - pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::homebrew
-- homebrew::cask
 - pivotal_workstation::git
 - sambao21_workstation::gitignore_global
 - sambao21_workstation::gitconfig
@@ -35,15 +34,10 @@ recipes:
 - sambao21_workstation::google_voice_and_video
 - sambao21_workstation::iterm2
 - sprout-osx-apps::pg_admin
-#- sprout-osx-apps::firefox
 - sambao21_workstation::firefox
-#- sprout-osx-apps::chrome
 - sambao21_workstation::google_chrome
-#- pivotal_workstation::bettertouchtool
 - sambao21_workstation::bettertouchtool
-#- sprout-osx-apps::dropbox
 - sambao21_workstation::dropbox
-#- sprout-osx-apps::sourcetree
 - sambao21_workstation::sourcetree
 - sambao21_workstation::spotify
 - sambao21_workstation::google_drive
@@ -58,7 +52,7 @@ node_attributes:
     rvm: stable
   rvm:
     rubies:
-      ruby-2.0.0-p247:
+      ruby-2.0.0-p353:
         :command_line_options:
           --verify-downloads 1
-    default_ruby: "ruby-2.0.0-p247"
+    default_ruby: "ruby-2.0.0-p353"

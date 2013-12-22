@@ -1,1 +1,1 @@
-homebrew_cask "firefox"
+sprout_osx_apps_homebrew_cask "firefox"

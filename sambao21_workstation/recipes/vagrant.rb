@@ -1,1 +1,1 @@
-homebrew_cask "vagrant"
+sprout_osx_apps_homebrew_cask "vagrant"

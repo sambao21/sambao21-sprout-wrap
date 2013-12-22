@@ -1,2 +1,2 @@
-homebrew_cask "comic-book-lover"
-homebrew_cask "comic-book-lover-sync"
+sprout_osx_apps_homebrew_cask "comic-book-lover"
+sprout_osx_apps_homebrew_cask "comic-book-lover-sync"

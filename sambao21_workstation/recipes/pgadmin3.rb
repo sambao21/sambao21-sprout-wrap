@@ -1,1 +1,1 @@
-homebrew_cask "pgadmin3"
+sprout_osx_apps_homebrew_cask "pgadmin3"

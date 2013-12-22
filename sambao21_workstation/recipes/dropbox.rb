@@ -1,1 +1,1 @@
-homebrew_cask "dropbox"
+sprout_osx_apps_homebrew_cask "dropbox"

@@ -1,1 +1,1 @@
-homebrew_cask 'simple-comic'
+sprout_osx_apps_homebrew_cask 'simple-comic'

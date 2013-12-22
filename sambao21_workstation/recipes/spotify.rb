@@ -1,1 +1,1 @@
-homebrew_cask "spotify"
+sprout_osx_apps_homebrew_cask "spotify"

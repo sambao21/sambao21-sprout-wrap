@@ -1,4 +1,4 @@
-homebrew_cask "alfred"
+sprout_osx_apps_homebrew_cask "alfred"
 
 execute 'brew cask alfred link' do
   command 'brew cask alfred link'

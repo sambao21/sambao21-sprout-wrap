@@ -1,1 +1,1 @@
-homebrew_cask "bettertouchtool"
+sprout_osx_apps_homebrew_cask "bettertouchtool"

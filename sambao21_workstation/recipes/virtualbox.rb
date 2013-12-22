@@ -1,1 +1,1 @@
-homebrew_cask "virtualbox"
+sprout_osx_apps_homebrew_cask "virtualbox"

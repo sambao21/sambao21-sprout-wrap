@@ -1,4 +1,4 @@
-include_recipe 'pivotal_workstation::sublime_text'
+include_recipe 'sprout-osx-apps::sublime_text'
 
 sublime_package_path = ["#{node['sprout']['home']}/Library/Application Support/Sublime Text 2", "Packages"]
 sublime_user_path = sublime_package_path.dup << "User"

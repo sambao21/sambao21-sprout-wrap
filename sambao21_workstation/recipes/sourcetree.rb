@@ -1,1 +1,1 @@
-homebrew_cask "sourcetree"
+sprout_osx_apps_homebrew_cask "sourcetree"
