@@ -14,6 +14,12 @@ cookbook_file File.expand_path("Auto Encoding for Ruby.sublime-settings", File.j
   mode "0600"
 end
 
+cookbook_file File.expand_path("Default (OSX).sublime-keymap", File.join(sublime_user_path)) do
+  source "Default (OSX).sublime-keymap"
+  owner node['current_user']
+  mode "0600"
+end
+
 template File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
   source "Ruby.sublime-build.erb"
   owner node['current_user']
