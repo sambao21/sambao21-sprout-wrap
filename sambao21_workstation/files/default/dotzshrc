@@ -49,15 +49,12 @@ alias pryrails="pry -r ./config/environment"
 alias goplay="cd ~/Dropbox/playpen"
 alias mdr="make_dot_ruby"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 #path to postgres.app command line tools http://postgresapp.com/documentation
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 #path to npm bin directory http://www.bwigg.com/2012/10/npm-jshint-command-not-found/
 PATH="/usr/local/share/npm/bin:$PATH"
 
-# Set RVM to use the default Ruby profile
-rvm use default
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
