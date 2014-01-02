@@ -47,6 +47,7 @@ recipes:
 - sambao21_workstation::u_torrent
 - sambao21_workstation::simple_comic
 - sambao21_workstation::comic_book_lover
+- sambao21_workstation::terminal_notifier
 node_attributes:
   versions:
     rvm: stable
