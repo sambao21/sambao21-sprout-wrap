@@ -48,7 +48,6 @@ recipes:
 - sambao21_workstation::simple_comic
 - sambao21_workstation::comic_book_lover
 - sambao21_workstation::terminal_notifier
-- sambao21_workstation::slack
 node_attributes:
   versions:
     rvm: stable
