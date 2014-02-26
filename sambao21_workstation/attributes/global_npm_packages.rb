@@ -1,3 +1,5 @@
 node.default["global_npm_packages"]= [
-  "jshint"
+  "jshint",
+  "less",
+  "autoless"
 ]
