@@ -56,4 +56,4 @@ node_attributes:
       ruby-2.0.0-p353:
         :command_line_options:
           --verify-downloads 1
-    default_ruby: "ruby-2.0.0-p353"
+    default_ruby: "ruby-2.0.0-p451"
