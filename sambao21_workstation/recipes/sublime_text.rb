@@ -8,12 +8,6 @@ begin
   t.cookbook "sambao21_workstation"
 end
 
-cookbook_file File.expand_path("Auto Encoding for Ruby.sublime-settings", File.join(sublime_user_path)) do
-  source "sublime_text-Auto Encoding for Ruby.sublime-settings"
-  owner node['current_user']
-  mode "0600"
-end
-
 cookbook_file File.expand_path("Default (OSX).sublime-keymap", File.join(sublime_user_path)) do
   source "Default (OSX).sublime-keymap"
   owner node['current_user']
