@@ -49,6 +49,7 @@ recipes:
 - sambao21_workstation::comic_book_lover
 - sambao21_workstation::terminal_notifier
 - sambao21_workstation::direnv
+- sambao21_workstation::sqlite-database-browser
 node_attributes:
   versions:
     rvm: stable
