@@ -1,0 +1,5 @@
+{
+  "check_for_rvm": true,
+  "run_rspec_command": "spring rspec {relative_path}",
+  "run_single_rspec_command": "spring rspec {relative_path}:{line_number}"
+}

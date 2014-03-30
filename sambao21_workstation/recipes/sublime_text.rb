@@ -15,14 +15,20 @@ cookbook_file File.expand_path("Default (OSX).sublime-keymap", File.join(sublime
   mode "0600"
 end
 
-template File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
-  source "Ruby.sublime-build.erb"
+cookbook_file File.expand_path("CTags.sublime-settings", File.join(sublime_user_path)) do
+  source "CTags.sublime-settings"
   owner node['current_user']
   mode "0600"
 end
 
-cookbook_file File.expand_path("CTags.sublime-settings", File.join(sublime_user_path)) do
-  source "CTags.sublime-settings"
+cookbook_file File.expand_path("RubyTest.sublime-settings", File.join(sublime_user_path)) do
+  source "RubyTest.sublime-settings"
+  owner node['current_user']
+  mode "0600"
+end
+
+template File.expand_path("Ruby.sublime-build", File.join(sublime_user_path)) do
+  source "Ruby.sublime-build.erb"
   owner node['current_user']
   mode "0600"
 end
