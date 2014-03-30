@@ -15,5 +15,6 @@ node.override["sublime_text_packages"] = [
   {"name" => "SublimeCodeIntel", "source" => "http://github.com/Kronuz/SublimeCodeIntel"},
   {"name" => "SublimeERB", "source" => "https://github.com/eddorre/SublimeERB"},
   {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"},
-  {"name" => "Syntax highlighting for Sass", "source" => "https://github.com/P233/Syntax-highlighting-for-Sass"}
+  {"name" => "Syntax highlighting for Sass", "source" => "https://github.com/P233/Syntax-highlighting-for-Sass"},
+  {"name" => "Theme - Glacier", "source" => "https://github.com/joeyfigaro/glacier-theme"}
 ]
