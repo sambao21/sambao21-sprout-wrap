@@ -54,7 +54,10 @@ node_attributes:
     rvm: stable
   rvm:
     rubies:
-      ruby-2.0.0-p353:
+      ruby-2.0.0-p451:
         :command_line_options:
           --verify-downloads 1
-    default_ruby: "ruby-2.0.0-p451"
+      ruby-2.1.1:
+        :command_line_options:
+          --verify-downloads 1
+    default_ruby: "ruby-2.1.1"
