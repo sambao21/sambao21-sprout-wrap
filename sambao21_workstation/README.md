@@ -27,6 +27,9 @@ More details for specific recipes.
 #### Settings
 The following gets copied into `~/Library/Application Support/Sublime Text 2/Packages/User`:
 * `/templates/default/sublime_text-Preferences.sublime-settings.erb` - Custom user settings
+* `/files/default/Default (OSX).sublime-keymap` - Custom key mappings
+* `/templates/default/Ruby.sublime-build.erb.erb` - So sublime can detect the proper ruby using rvm-auto-ruby
+* `/files/default/CTags.sublime-settings` - Set command to use my custom ctags_for_ruby command
 
 ## Thanks
 Thanks to [Roderik van der Veer](http://twitter.com/r0derik) for his excellent [article](http://vanderveer.be/blog/2013/01/02/automating-the-setup-of-my-perfect-developer-environment-on-osx-10-dot-8-mountain-lion/) that inspired me to make my own workstation project.
