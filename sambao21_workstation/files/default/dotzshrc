@@ -48,6 +48,7 @@ alias sha256="shasum -a 256"
 alias pryrails="pry -r ./config/environment"
 alias goplay="cd ~/Dropbox/playpen"
 alias mdr="make_dot_ruby"
+alias ff="bundle show --paths | xargs grep --color -nri"
 
 #path to postgres.app command line tools http://postgresapp.com/documentation
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
