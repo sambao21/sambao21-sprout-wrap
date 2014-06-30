@@ -51,7 +51,7 @@ alias mdr="make_dot_ruby"
 alias ff="bundle show --paths | xargs grep --color -nri"
 
 #path to postgres.app command line tools http://postgresapp.com/documentation
-PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 
 #path to npm bin directory http://www.bwigg.com/2012/10/npm-jshint-command-not-found/
 PATH="/usr/local/share/npm/bin:$PATH"
