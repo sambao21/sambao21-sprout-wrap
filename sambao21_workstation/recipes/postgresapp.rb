@@ -1,7 +1,7 @@
 #Installs PostgreSQL on a Mac using http://postgresapp.com/
 unless File.exists?("/Applications/Postgres.app")
   remote_file "#{Chef::Config[:file_cache_path]}/PostgresApp.zip" do
-    source "http://postgres-app.s3.amazonaws.com/PostgresApp-9-2-4-2.zip"
+    source "https://github.com/PostgresApp/PostgresApp/releases/download/9.3.4.2/Postgres-9.3.4.2.zip"
     owner node['current_user']
   end
 
