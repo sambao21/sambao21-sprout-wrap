@@ -41,6 +41,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export EDITOR=subl
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
 alias e="subl -n ."
 alias rg="rvm gemset"
@@ -63,3 +64,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 eval "$(direnv hook zsh)"
 
 rvm use --default
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export JDK_HOME=$(/usr/libexec/java_home)
